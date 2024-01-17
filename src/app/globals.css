@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can place this in a CSS file if you're using Tailwind CSS with PostCSS */
+@layer components {
+    .container {
+      @apply max-w-7xl ;
+    }
+  }
+  
